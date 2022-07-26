@@ -12,7 +12,7 @@ export class CardComponent implements OnInit {
      name: 'Sites',
      total: '12',
      icon: 'fa-solid fa-building',
-     link: "./"
+     link: "/sites"
    },
    {
     number: '2',

@@ -14,6 +14,7 @@ import { HomeComponent } from './home/home.component';
 import { CarousselComponent } from './caroussel/caroussel.component';
 import { TeamComponent } from './team/team.component';
 import { ContractComponent } from './contract/contract.component';
+import { SitesComponent } from './sites/sites.component';
 
 
 @NgModule({
@@ -26,6 +27,7 @@ import { ContractComponent } from './contract/contract.component';
     CarousselComponent,
     TeamComponent,
     ContractComponent,
+    SitesComponent,
     
   ],
   imports: [
