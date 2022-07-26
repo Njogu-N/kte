@@ -1,0 +1,9 @@
+<div class="cardwrap">
+    <div class="Songs" *ngFor="let item of list" routerLink={{item.link}}>
+        <i class={{item.icon}}></i>
+        <div class="card-details">
+            <div>{{item.name}}</div>
+            <div>{{item.total}}</div>
+        </div>
+    </div> 
+</div> 

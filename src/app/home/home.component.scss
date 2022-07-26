@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    z-index: 2;
+}
+app-card{
+    margin: 100%;
+}
+
+// .home-panel {
+//     display: flex;
+
+//     p {
+//         font-size: 1rem;
+//     }
+// }
+// .text-logo-home {
+//     // margin-left: -10px;
+//     font-size: large;
+//     height: 180px;
+//     line-height: 180px;
+//     text-align: center;
+//     align-content: center;
+//   }
+//   .logo-home {
+//     font-size: large;
+//     height: 280px;
+//     line-height: 280px;
+//     text-align: center;
+//     align-content: center;
+//   }
+  
+//   .logo-home img {
+//     height: 380px;
+//     width: 380px;
+//     margin: auto;
+//   }
+// a {
+//     padding: 250px;
+//     width: 100px;
+//  }
+ 
+
+
+
+
+.container {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-gap: 10px;
+    // border: 2px solid #000;
+    width: 100%;
+    padding-top: 10;
+    
+    
+}
+
+// .left {
+//     // background: #fff;
+//     // padding: 0rem;
+// }
+
+.inline-wrapper {
+    display: block;
+}
+
+.flex-wrapper {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-gap: 5px;
+    margin-bottom: 20px;
+}
+
+.divisionss {
+    background: #fff;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; 
+    border-radius: 10px;
+    padding: 10px;
+}
+
+
+
+@media screen and (max-width: 600px) {
+    .container {
+        grid-template-columns: 1fr;
+    }
+}
